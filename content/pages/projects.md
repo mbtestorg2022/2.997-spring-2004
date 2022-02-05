@@ -8,8 +8,65 @@ The final project consists of a 10-15 page project report and 15-20 minute prese
 
 Some representative projects are presented in the table below, courtesy of the student author(s).
 
-| TOPICS | STUDENTS | PROJECTS |
-| --- | --- | --- |
-| Approximate Dynamic Programming (Via Linear Programming) for Stochastic Scheduling | Mohamed Mostagir  {{< br >}}  {{< br >}}Nelson Uhan | Paper ([PDF]({{< baseurl >}}/resources/most_uhan_paper)) (Courtesy of Mohamed Mostagir and Nelson Uhan. Used with permission.)  {{< br >}}  {{< br >}}Slides ([PDF]({{< baseurl >}}/resources/most_uhan_slides)) (Courtesy of Mohamed Mostagir and Nelson Uhan. Used with permission.) |
-| How to choose the State Relevance Weight in the Approximate Linear Programming Approach for Dynamic Programming? | Yann Le Tallec  {{< br >}}  {{< br >}}Theophane Weber | Paper ([PDF]({{< baseurl >}}/resources/web_let_cho_pap)) (Courtesy of Yann Le-Tallec and Theophane Weber. Used with permission.)  {{< br >}}  {{< br >}}Slides ([PDF]({{< baseurl >}}/resources/web_let_cho_sli)) (Courtesy of Yann Le-Tallec and Theophane Weber. Used with permission.) |
-| Decentralized Strategies for the Assignment Problem | Hariharan Lakshmanan | Slides ([PDF]({{< baseurl >}}/resources/hari_decent_mov)) (Courtesy of Hariharan Lakshamanan. Used with permission.)
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+STUDENTS
+{{< thclose >}}
+{{< thopen >}}
+PROJECTS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Approximate Dynamic Programming (Via Linear Programming) for Stochastic Scheduling
+{{< tdclose >}}
+{{< tdopen >}}
+Mohamed Mostagir  
+  
+Nelson Uhan
+{{< tdclose >}}
+{{< tdopen >}}
+Paper ([PDF]({{< baseurl >}}/resources/most_uhan_paper)) (Courtesy of Mohamed Mostagir and Nelson Uhan. Used with permission.)  
+  
+Slides ([PDF]({{< baseurl >}}/resources/most_uhan_slides)) (Courtesy of Mohamed Mostagir and Nelson Uhan. Used with permission.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+How to choose the State Relevance Weight in the Approximate Linear Programming Approach for Dynamic Programming?
+{{< tdclose >}}
+{{< tdopen >}}
+Yann Le Tallec  
+  
+Theophane Weber
+{{< tdclose >}}
+{{< tdopen >}}
+Paper ([PDF]({{< baseurl >}}/resources/web_let_cho_pap)) (Courtesy of Yann Le-Tallec and Theophane Weber. Used with permission.)  
+  
+Slides ([PDF]({{< baseurl >}}/resources/web_let_cho_sli)) (Courtesy of Yann Le-Tallec and Theophane Weber. Used with permission.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Decentralized Strategies for the Assignment Problem
+{{< tdclose >}}
+{{< tdopen >}}
+Hariharan Lakshmanan
+{{< tdclose >}}
+{{< tdopen >}}
+Slides ([PDF]({{< baseurl >}}/resources/hari_decent_mov)) (Courtesy of Hariharan Lakshamanan. Used with permission.)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

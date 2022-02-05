@@ -8,32 +8,380 @@ Bertsekas = Bertsekas, Dimitri P. _Dynamic Programming and Optimal Control_. 2 v
 
 Bertsekas and Tsitsiklis = Bertsekas, Dimitri P., and John N. Tsitsiklis. _Neuro-Dynamic Programming_. Belmont, MA: Athena Scientific, 1996. ISBN: 9781886529106.
 
-| LEC # | TOPICS | READINGS |
-| --- | --- | --- |
-| 1 | Markov Decision Processes  {{< br >}}  {{< br >}}Finite-Horizon Problems: Backwards Induction  {{< br >}}  {{< br >}}Discounted-Cost Problems: Cost-to-Go Function, Bellman's Equation | Bertsekas Vol. 1, Chapter 1. |
-| 2 | Value Iteration  {{< br >}}  {{< br >}}Existence and Uniqueness of Bellman's Equation Solution  {{< br >}}  {{< br >}}Gauss-Seidel Value Iteration | Bertsekas Vol. 2, Chapter 1.  {{< br >}}  {{< br >}}Bertsekas and Tsitsiklis, Chapter 2. |
-| 3 | Optimality of Policies derived from the Cost-to-Go Function  {{< br >}}  {{< br >}}Policy Iteration  {{< br >}}  {{< br >}}Asynchronous Policy Iteration | Bertsekas Vol. 2, Chapter 1.  {{< br >}}  {{< br >}}Bertsekas and Tsitsiklis, Chapter 2. |
-| 4 | Average-Cost Problems  {{< br >}}  {{< br >}}Relationship with Discounted-Cost Problems  {{< br >}}  {{< br >}}Bellman's Equation  {{< br >}}  {{< br >}}Blackwell Optimality | Bertsekas Vol. 2, Chapter 4. |
-| 5 | Average-Cost Problems  {{< br >}}  {{< br >}}Computational Methods | Bertsekas Vol. 2, Chapter 4. |
-| 6 | Application of Value Iteration to Optimization of Multiclass Queueing Networks  {{< br >}}  {{< br >}}Introduction to Simulation-based Methods Real-Time Value Iteration | Chen, R. R., and S. P. Meyn. "[Value Iteration and Optimization of Multiclass Queueing Networks](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.42.8423)."_Queueing Systems_ 32 (1999): 65-97.  {{< br >}}  {{< br >}}Bertsekas and Tsitsiklis, Chapter 5. |
-| 7 | Q-Learning  {{< br >}}  {{< br >}}Stochastic Approximations | Bertsekas and Tsitsiklis, Chapters 4 and 5. |
-| 8 | Stochastic Approximations: Lyapunov Function Analysis  {{< br >}}  {{< br >}}The ODE Method  {{< br >}}  {{< br >}}Convergence of Q-Learning | Bertsekas and Tsitsiklis, Chapters 4 and 5. |
-| 9 | Exploration versus Exploitation: The Complexity of Reinforcement Learning | Kearns, M. , and S. Singh. "[Near-Optional Reinforcement Learning in Polynomial Time](http://www.cis.upenn.edu/~mkearns/papers/reinforcement.pdf)." _Machine Learning_ 49, no. 2 (Nov 2002): 209-232. |
-| 10 | Introduction to Value Function Approximation  {{< br >}}  {{< br >}}Curse of Dimensionality  {{< br >}}  {{< br >}}Approximation Architectures | Bertsekas and Tsitsiklis, Chapter 6. |
-| 11 | Model Selection and Complexity | Hastie, Tibshirani, and Friedmann. Chapter 7 in _The Elements of Statistical Learning_. New York: Springer, 2003. ISBN: 9780387952840. |
-| 12 | Introduction to Value Function Approximation Algorithms  {{< br >}}  {{< br >}}Performance Bounds | Bertsekas and Tsitsiklis, Chapter 6. |
-| 13 | Temporal-Difference Learning with Value Function Approximation | Bertsekas and Tsitsiklis, Chapter 6. |
-| 14 | Temporal-Difference Learning with Value Function Approximation (cont.) | Bertsekas and Tsitsiklis, Chapter 6.  {{< br >}}  {{< br >}}de Farias, D. P., and B. Van Roy. "[On the Existence of Fixed Points for Approximate Value Iteration and Temporal-Difference Learning](http://dx.doi.org/10.1023/A:1004641123405)." |
-| 15 | Temporal-Difference Learning with Value Function Approximation (cont.)  {{< br >}}  {{< br >}}Optimal Stopping Problems  {{< br >}}  {{< br >}}General Control Problems | Bertsekas and Tsitsiklis, Chapter 6.  {{< br >}}  {{< br >}}de Farias, D. P., and B. Van Roy. "[On the Existence of Fixed Points for Approximate Value Iteration and Temporal-Difference Learning](http://dx.doi.org/10.1023/A:1004641123405)."  {{< br >}}  {{< br >}}Bertsekas, Borkar, and Nedic. "[Improved temporal Difference Methods with Linear Function Approximation](http://onlinelibrary.wiley.com/doi/10.1002/9780470544785.ch9/summary)." |
-| 16 | Approximate Linear Programming | de Farias, D. P., and B. Van Roy. "[The Linear Programming Approach to Approximate Dynamic Programming](http://www.mit.edu/~pucci/discountedLP.pdf)." |
-| 17 | Approximate Linear Programming (cont.) | de Farias, D. P., and B. Van Roy. "[The Linear Programming Approach to Approximate Dynamic Programming](http://www.mit.edu/~pucci/discountedLP.pdf)." |
-| 18 | Efficient Solutions for Approximate Linear Programming | de Farias D. P., and B. Van Roy. "[On Constraint Sampling in the Linear Programming Approach to Approximate Dynamic Programming](http://www.mit.edu/~pucci/sampling.pdf)."  {{< br >}}  {{< br >}}Calafiori, and Campi. "[Uncertain Convex Programs: Randomized Solutions and Confidence Levels](http://academic.research.microsoft.com/Publication/1744417/uncertain-convex-programs-randomized-solutions-and-confidence-levels)." |
-| 19 | Efficient Solutions for Approximate Linear Programming: Factored MDPs | Guestrin, et al. "[Efficient Solution Algorithms for Factored MDPs](http://www-2.cs.cmu.edu/afs/cs/project/jair/pub/volume19/guestrin03a.pdf)."  {{< br >}}  {{< br >}}Schuurmans, and Patrascu. "[Direct Value Approximation for Factored MDPs](http://citeseer.ist.psu.edu/schuurmans01direct.html)." |
-| 20 | Policy Search Methods | Marbach, and Tsitsiklis. "Simulation-Based Optimization of Markov Reward Processes." ([PDF](http://www.mit.edu/~jnt/Papers/J083-01-mar-MDP.pdf)) |
-| 21 | Policy Search Methods (cont.) | Baxter, and Bartlett. "[Infinite-Horizon Policy-Gradient Estimation](http://www-2.cs.cmu.edu/afs/cs/project/jair/pub/volume15/baxter01a.pdf)." |
-| 22 | Policy Search Methods for POMDPs  {{< br >}}  {{< br >}}Application: Call Admission Control  {{< br >}}  {{< br >}}Actor-Critic Methods | Baxter, and Bartlett. "[Infinite-Horizon Policy-Gradient Estimation](http://www-2.cs.cmu.edu/afs/cs/project/jair/pub/volume15/baxter01a.pdf)."  {{< br >}}  {{< br >}}Baxter, and Bartlett. "[Experiments with Infinite-Horizon Policy-Gradient Estimation](http://www-2.cs.cmu.edu/afs/cs/project/jair/pub/volume15/baxter01b.pdf)."  {{< br >}}  {{< br >}}Konda, and Tsitsiklis. "Actor-Critic Algorithms." ([PDF](http://www.mit.edu/~jnt/Papers/J094-03-kon-actors.pdf)) |
-| 23 | Guest Lecture: Prof. Nick Roy  {{< br >}}  {{< br >}}Approximate POMDP Compression | Roy, and Gordon. "[Exponential Family PCA for Belief Compression in POMDPs](http://web.mit.edu/nickroy/www/papers/nips02.pdf)." |
-| 24 | Policy Search Methods: PEGASUS  {{< br >}}  {{< br >}}Application: Helicopter Control | Ng, and Jordan. "[PEGASUS: A policy search method for large MDPs and POMDPs](http://www.robotics.stanford.edu/~ang/papers/uai00-pegasus.pdf)."  {{< br >}}  {{< br >}}Ng, et al. "[Autonomous Helicopter Flight via Reinforcement Learning](http://books.nips.cc/papers/files/nips16/NIPS2003_CN07.pdf)." 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+READINGS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Markov Decision Processes  
+  
+Finite-Horizon Problems: Backwards Induction  
+  
+Discounted-Cost Problems: Cost-to-Go Function, Bellman's Equation
+{{< tdclose >}}
+{{< tdopen >}}
+Bertsekas Vol. 1, Chapter 1.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Value Iteration  
+  
+Existence and Uniqueness of Bellman's Equation Solution  
+  
+Gauss-Seidel Value Iteration
+{{< tdclose >}}
+{{< tdopen >}}
+Bertsekas Vol. 2, Chapter 1.  
+  
+Bertsekas and Tsitsiklis, Chapter 2.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Optimality of Policies derived from the Cost-to-Go Function  
+  
+Policy Iteration  
+  
+Asynchronous Policy Iteration
+{{< tdclose >}}
+{{< tdopen >}}
+Bertsekas Vol. 2, Chapter 1.  
+  
+Bertsekas and Tsitsiklis, Chapter 2.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Average-Cost Problems  
+  
+Relationship with Discounted-Cost Problems  
+  
+Bellman's Equation  
+  
+Blackwell Optimality
+{{< tdclose >}}
+{{< tdopen >}}
+Bertsekas Vol. 2, Chapter 4.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Average-Cost Problems  
+  
+Computational Methods
+{{< tdclose >}}
+{{< tdopen >}}
+Bertsekas Vol. 2, Chapter 4.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Application of Value Iteration to Optimization of Multiclass Queueing Networks  
+  
+Introduction to Simulation-based Methods Real-Time Value Iteration
+{{< tdclose >}}
+{{< tdopen >}}
+Chen, R. R., and S. P. Meyn. "[Value Iteration and Optimization of Multiclass Queueing Networks](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.42.8423)."_Queueing Systems_ 32 (1999): 65-97.  
+  
+Bertsekas and Tsitsiklis, Chapter 5.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Q-Learning  
+  
+Stochastic Approximations
+{{< tdclose >}}
+{{< tdopen >}}
+Bertsekas and Tsitsiklis, Chapters 4 and 5.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Stochastic Approximations: Lyapunov Function Analysis  
+  
+The ODE Method  
+  
+Convergence of Q-Learning
+{{< tdclose >}}
+{{< tdopen >}}
+Bertsekas and Tsitsiklis, Chapters 4 and 5.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Exploration versus Exploitation: The Complexity of Reinforcement Learning
+{{< tdclose >}}
+{{< tdopen >}}
+Kearns, M. , and S. Singh. "[Near-Optional Reinforcement Learning in Polynomial Time](http://www.cis.upenn.edu/~mkearns/papers/reinforcement.pdf)." _Machine Learning_ 49, no. 2 (Nov 2002): 209-232.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction to Value Function Approximation  
+  
+Curse of Dimensionality  
+  
+Approximation Architectures
+{{< tdclose >}}
+{{< tdopen >}}
+Bertsekas and Tsitsiklis, Chapter 6.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Model Selection and Complexity
+{{< tdclose >}}
+{{< tdopen >}}
+Hastie, Tibshirani, and Friedmann. Chapter 7 in _The Elements of Statistical Learning_. New York: Springer, 2003. ISBN: 9780387952840.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction to Value Function Approximation Algorithms  
+  
+Performance Bounds
+{{< tdclose >}}
+{{< tdopen >}}
+Bertsekas and Tsitsiklis, Chapter 6.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Temporal-Difference Learning with Value Function Approximation
+{{< tdclose >}}
+{{< tdopen >}}
+Bertsekas and Tsitsiklis, Chapter 6.
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Temporal-Difference Learning with Value Function Approximation (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+Bertsekas and Tsitsiklis, Chapter 6.  
+  
+de Farias, D. P., and B. Van Roy. "[On the Existence of Fixed Points for Approximate Value Iteration and Temporal-Difference Learning](http://dx.doi.org/10.1023/A:1004641123405)."
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Temporal-Difference Learning with Value Function Approximation (cont.)  
+  
+Optimal Stopping Problems  
+  
+General Control Problems
+{{< tdclose >}}
+{{< tdopen >}}
+Bertsekas and Tsitsiklis, Chapter 6.  
+  
+de Farias, D. P., and B. Van Roy. "[On the Existence of Fixed Points for Approximate Value Iteration and Temporal-Difference Learning](http://dx.doi.org/10.1023/A:1004641123405)."  
+  
+Bertsekas, Borkar, and Nedic. "[Improved temporal Difference Methods with Linear Function Approximation](http://onlinelibrary.wiley.com/doi/10.1002/9780470544785.ch9/summary)."
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Approximate Linear Programming
+{{< tdclose >}}
+{{< tdopen >}}
+de Farias, D. P., and B. Van Roy. "[The Linear Programming Approach to Approximate Dynamic Programming](http://www.mit.edu/~pucci/discountedLP.pdf)."
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Approximate Linear Programming (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+de Farias, D. P., and B. Van Roy. "[The Linear Programming Approach to Approximate Dynamic Programming](http://www.mit.edu/~pucci/discountedLP.pdf)."
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Efficient Solutions for Approximate Linear Programming
+{{< tdclose >}}
+{{< tdopen >}}
+de Farias D. P., and B. Van Roy. "[On Constraint Sampling in the Linear Programming Approach to Approximate Dynamic Programming](http://www.mit.edu/~pucci/sampling.pdf)."  
+  
+Calafiori, and Campi. "[Uncertain Convex Programs: Randomized Solutions and Confidence Levels](http://academic.research.microsoft.com/Publication/1744417/uncertain-convex-programs-randomized-solutions-and-confidence-levels)."
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Efficient Solutions for Approximate Linear Programming: Factored MDPs
+{{< tdclose >}}
+{{< tdopen >}}
+Guestrin, et al. "[Efficient Solution Algorithms for Factored MDPs](http://www-2.cs.cmu.edu/afs/cs/project/jair/pub/volume19/guestrin03a.pdf)."  
+  
+Schuurmans, and Patrascu. "[Direct Value Approximation for Factored MDPs](http://citeseer.ist.psu.edu/schuurmans01direct.html)."
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Policy Search Methods
+{{< tdclose >}}
+{{< tdopen >}}
+Marbach, and Tsitsiklis. "Simulation-Based Optimization of Markov Reward Processes." ([PDF](http://www.mit.edu/~jnt/Papers/J083-01-mar-MDP.pdf))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Policy Search Methods (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+Baxter, and Bartlett. "[Infinite-Horizon Policy-Gradient Estimation](http://www-2.cs.cmu.edu/afs/cs/project/jair/pub/volume15/baxter01a.pdf)."
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Policy Search Methods for POMDPs  
+  
+Application: Call Admission Control  
+  
+Actor-Critic Methods
+{{< tdclose >}}
+{{< tdopen >}}
+Baxter, and Bartlett. "[Infinite-Horizon Policy-Gradient Estimation](http://www-2.cs.cmu.edu/afs/cs/project/jair/pub/volume15/baxter01a.pdf)."  
+  
+Baxter, and Bartlett. "[Experiments with Infinite-Horizon Policy-Gradient Estimation](http://www-2.cs.cmu.edu/afs/cs/project/jair/pub/volume15/baxter01b.pdf)."  
+  
+Konda, and Tsitsiklis. "Actor-Critic Algorithms." ([PDF](http://www.mit.edu/~jnt/Papers/J094-03-kon-actors.pdf))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Guest Lecture: Prof. Nick Roy  
+  
+Approximate POMDP Compression
+{{< tdclose >}}
+{{< tdopen >}}
+Roy, and Gordon. "[Exponential Family PCA for Belief Compression in POMDPs](http://web.mit.edu/nickroy/www/papers/nips02.pdf)."
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+Policy Search Methods: PEGASUS  
+  
+Application: Helicopter Control
+{{< tdclose >}}
+{{< tdopen >}}
+Ng, and Jordan. "[PEGASUS: A policy search method for large MDPs and POMDPs](http://www.robotics.stanford.edu/~ang/papers/uai00-pegasus.pdf)."  
+  
+Ng, et al. "[Autonomous Helicopter Flight via Reinforcement Learning](http://books.nips.cc/papers/files/nips16/NIPS2003_CN07.pdf)."
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Complementary Reading
 ---------------------
